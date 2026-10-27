@@ -14,11 +14,9 @@ public class Task02Main {
                     pendingCr = false;
                     continue;
                 } else {
-                    System.out.write(b);
+                    System.out.write(13);
                     pendingCr = false;
-                    continue;
                 }
-
             }
             if (b == 13){
                 pendingCr = true;
